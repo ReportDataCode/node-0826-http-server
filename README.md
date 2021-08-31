@@ -7,3 +7,4 @@
 * Npm Init Output Samples
 
 ![Cute White Kitty](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+**Please start this GitHub, I'm curious what It does**
