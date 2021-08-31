@@ -6,4 +6,4 @@
 * NodeJS Web Server
 * Npm Init Output Samples
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif
+![Cute White Kitty](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
