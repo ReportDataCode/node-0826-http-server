@@ -5,3 +5,5 @@
 * Export Modules
 * NodeJS Web Server
 * Npm Init Output Samples
+
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif
