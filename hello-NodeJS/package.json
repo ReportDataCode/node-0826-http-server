@@ -1,0 +1,24 @@
+{
+  "name": "0826-nodejs",
+  "version": "1.0.0",
+  "description": "A guided Node.js Project Made In KodeGo Virtual Coding Bootcampu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReportDataCode/studious-node.git"
+  },
+  "keywords": [
+    "Node.js",
+    "KodeGo",
+    "2021-08-26"
+  ],
+  "author": "Prince Anire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReportDataCode/studious-node/issues"
+  },
+  "homepage": "https://github.com/ReportDataCode/studious-node#readme"
+}
