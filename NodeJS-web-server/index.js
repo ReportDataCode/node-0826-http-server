@@ -9,12 +9,21 @@ console.log(person.info());
 
 const server = http.createServer((req, res) => {
     res.statusCode = 200
-    res.setHeader('Content-Type', 'text/plain')
-    res.write("Welcome to NodeJS!\n");
-    res.write("The date and time are currently:" + dateModule.myDateTime() + "\n");
-    res.write(person.info() + '\n');
-    res.write(person.info() + '\n');
-    res.end(`Hello, ${person.firstName}!\n`)
+    
+    if (req.url === '/') {
+        res.setHeader('Content-Type', 'text/plain');
+        res.write("<html> <body> </body></html>")
+        // res.write("Welcome to NodeJS!\n");
+        // res.write("The date and time are currently:" + dateModule.myDateTime() + "\n");
+        // res.write(person.info() + '\n');
+        // res.write(person.info() + '\n');
+        res.end();
+
+    }
+    else if (req.url === '/view') {
+
+    }
+    
 })
 
 server.listen(port, hostName, () => {
