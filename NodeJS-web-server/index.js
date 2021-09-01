@@ -11,19 +11,36 @@ const server = http.createServer((req, res) => {
     res.statusCode = 200
     
     if (req.url === '/') {
-        res.setHeader('Content-Type', 'text/html');
-        res.write("<html> <body> <h1> Hello NodeJS<h1/></body></html>")
-        // res.write("Welcome to NodeJS!\n");
-        // res.write("The date and time are currently:" + dateModule.myDateTime() + "\n");
-        // res.write(person.info() + '\n');
-        // res.write(person.info() + '\n');g
+        res.setHeader('Content-Type', 'text/plain');
+        // res.write("<html> <body> <h1> Hello NodeJS<h1/></body></html>")
+        res.write("Welcome to NodeJS!\n");
+        res.write("The date and time are currently:" + dateModule.myDateTime() + "\n");
+        res.write(person.info() + '\n');
+        res.write(person.info() + '\n');g
         res.end();
 
     }
+
     else if (req.url === '/view') {
         res.setHeader('Content-Type', 'text/html');
         res.write('<html><body> <h1>This is view page!</h1></body> </html>')
         res.end();
+
+    }
+
+    else if (req.url === '/admin') {
+        res.setHeader('Content-Type', 'text/html');
+        res.write('<html><body> <h1>This is admin page!</h1></body> </html>')
+        res.end();
+
+
+
+    }
+    else {
+        res.setHeader('Content-Type', 'text/html');
+        res.write('<html><body> <h1>Error 404: Invalid Request</h1></body> </html>')
+        res.end();
+
 
     }
     
